@@ -143,6 +143,7 @@ ABOUT ME SECTION
     .about-me__picture--mask{
         width: 100px;
         height: 100px;
+        margin:0 auto;
         border-radius: 50%;
         overflow: hidden;
         box-shadow: 0 8px 16px rgba(0,0,0,0.16);
@@ -187,7 +188,7 @@ ABOUT ME SECTION
 /*
 TECH SKILLS SECTION
 */
-.laguage__img{
+.language__img{
     width: 100%;
     max-width: 100px;
     transition:all 300ms;
@@ -236,9 +237,16 @@ TECH SKILLS SECTION
     opacity:1;
  }
 
- /* PROJECTS SECTION
+ /* PROJECTS 
  */
 
+ .project{
+    margin-bottom: 135px;
+ }
+
+  .project:last-child{
+    margin-bottom:40px;
+  }
  .project_img{
        width: 100%;
        transition: all 500ms ease;
@@ -262,7 +270,7 @@ TECH SKILLS SECTION
     left:0;
     height:100%;
     width:100%;
-    background-color: p#b06e5a;  /*aqui le cambie el color*/
+    background-color: #6d548a;  /*aqui le cambie el color*/
     opacity: 0;
     transition: opacity 450ms ease;
     z-index:2 ;
@@ -287,7 +295,7 @@ TECH SKILLS SECTION
 }
 
 
-.project_description{
+.project__description{
     position:absolute;
     top: 50%;
     left: 90px;
