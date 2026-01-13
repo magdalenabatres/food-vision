@@ -160,6 +160,7 @@ ABOUT ME SECTION
      .about-me__info{
         display:flex;
         flex-direction: column;
+        text-align: center;
      }
 
  .bout-me__info--container{
