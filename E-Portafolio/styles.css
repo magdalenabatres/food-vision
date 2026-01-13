@@ -393,12 +393,12 @@ footer{
 
 .footer__social--link,
 .footer__copyright,
-.footer_logo--popper{
+.footer__logo--popper{
   color: #fff;  
 }
 
 .footer__logo--popper{
-    position:obsolute;
+    position:absolute;
     right: 0;
     top: 30px;
     font-weight: 700;
